@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+  .reasons {
+    background-color: tomato;
+    color: white;
+    padding: 10px;
+  }
+  .main {
+    text-align: center;
+  }
+</style>
+<head>
+  <meta charset="utf-8">
+  <title>Legend</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body style="background: black">
+<h1> Osman The Legend </h1>
+
+<script>
+function light(sw) {
+    var pic;
+    if (sw == 0) {
+        pic = "img/Osman.jpg"
+    } else {
+        pic = "img/Swag.jpg"
+    }
+    document.getElementById('myImage').src = pic;
+}
+</script>
+
+<CENTER><img id="myImage" src="pic_bulboff.gif" width="500" height="500"></CENTER>
+
+<p>
+<CENTER><button type="button" onclick="light(1)">Swag On</button></CENTER>
+<CENTER><button type="button" onclick="light(0)">Swag Off</button></CENTER>
+<h2>Tre grunde til at Osman er en levende Legende </h2>
+
+<h2 class="reasons main">1.Han flækker i Fortnite</h2>
+<h2 class="reasons main">2.Han går 1.5 timer hjem fra skole </h2>
+<h2 class="reasons main">3.Han spiller på en laptop</h2>
+
+
+</body>
+</html>
